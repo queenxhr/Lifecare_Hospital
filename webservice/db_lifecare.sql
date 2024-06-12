@@ -10,7 +10,7 @@ Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2024-06-11 18:18:50
+Date: 2024-06-12 08:36:12
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -203,9 +203,9 @@ CREATE TABLE `medcek` (
 -- ----------------------------
 -- Records of medcek
 -- ----------------------------
-INSERT INTO `medcek` VALUES ('1', 'PAKET A', 'Ibu dan Anak', 'Rp 1.000.000', '', 'Pemeriksaan skrining pelajar untuk mengetahui apakah peserta sehat sesuai dengan usianya', 'Cek berat badan');
-INSERT INTO `medcek` VALUES ('3', 'PAKET C', 'Skrining jantung', 'Rp 1.200.000', '', 'ya begitulah', 'Rontgen dada');
-INSERT INTO `medcek` VALUES ('5', 'PAKET B', 'Skrining Umum', 'Rp 990.000', '', 'iya', 'gatau');
+INSERT INTO `medcek` VALUES ('1', 'PAKET A', 'Ibu dan Anak', 'Rp 1.000.000', '', 'Pemeriksaan skrining pelajar untuk mengetahui apakah peserta sehat sesuai dengan usianya', 'Cek berat badan, Cek tekanan darah');
+INSERT INTO `medcek` VALUES ('3', 'PAKET C', 'Skrining jantung', 'Rp 1.200.000', '', 'Pemeriksaan skrining jantung', 'Rontgen dada');
+INSERT INTO `medcek` VALUES ('5', 'PAKET B', 'Skrining Umum', 'Rp 990.000', '', 'Pemeriksaan skrinin umum', 'Cek tekanan darah');
 
 -- ----------------------------
 -- Table structure for `metode_pembayaran`
@@ -581,6 +581,10 @@ INSERT INTO `token` VALUES ('10', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAi
 INSERT INTO `token` VALUES ('10', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgwMTMwOTksInN1YiI6IjEwIn0.g3RcI8Ou8Ay7L1OmbSyrqsd4slN3z1S00pu-L39HD1A', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg2MTYwOTksInN1YiI6IjEwIn0.Hye9WyhLkCQO4JN1cgS-BqeMuVZqXuBj7FJ97ugEkFA', '1', '2024-06-10 16:21:39');
 INSERT INTO `token` VALUES ('10', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgwMTQwNzEsInN1YiI6IjEwIn0.Wr_zy-n4Yqu3a6YAnkW9eK7uHQwBBoex9qJZFiiAe5o', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg2MTcwNzEsInN1YiI6IjEwIn0.c83MmoLLXlXhcaEa1GFIk9zxKhe7TfXfS5zLr3gd4AI', '1', '2024-06-10 16:37:51');
 INSERT INTO `token` VALUES ('10', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgwMTY3MDEsInN1YiI6IjEwIn0.FowbkepDBUFgNfkZRsPdBv-3YaNvjkRlctTD14mUeto', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg2MTk3MDEsInN1YiI6IjEwIn0.BHvWMVHw5eqgsLYWYD6jOb5A3kALANvRxHizW3PLL7Y', '1', '2024-06-10 17:21:41');
+INSERT INTO `token` VALUES ('10', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgxMDcyOTgsInN1YiI6IjEwIn0.WwlFO2tEWPR3JUIzaPDhsuPByYKrRck4uQMCwMP7QAQ', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg3MTAyOTgsInN1YiI6IjEwIn0.fKxRcMEwqa0-aVxHAxCjQfo2gdkCZC_hG9Zwgi99k-A', '1', '2024-06-11 18:31:38');
+INSERT INTO `token` VALUES ('9', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgxMTE3NzksInN1YiI6IjkifQ.tPNRkEdQmGlcL-IqAhyb5UgWPkSY2ynyCiXqnp_jHFY', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg3MTQ3NzksInN1YiI6IjkifQ.sGkIkrerFjUMeV7dUqLbVYu0f-1P0vzYLdeJDWx1c2U', '1', '2024-06-11 19:46:19');
+INSERT INTO `token` VALUES ('2', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgxMTQwNTYsInN1YiI6IjIifQ.a5dZX3dCp8aBA9r8wBZZAar97T3WKN0kQ3tk4oyh4Vs', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg3MTcwNTYsInN1YiI6IjIifQ.Ut-lHzAMHnBP47flD_w9SCUst00obVPLod7KVk7LknM', '1', '2024-06-11 20:24:16');
+INSERT INTO `token` VALUES ('9', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTgxNTc2MDgsInN1YiI6IjkifQ.qoGynAHLebts8uKQW4mYad7Z-f5RFKK25ZwUapYbGik', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTg3NjA2MDgsInN1YiI6IjkifQ.3MisTLx4e3LXrqm4IhXR6GCuGvTKSE-qmjOTLxY7QJE', '1', '2024-06-12 08:30:08');
 INSERT INTO `token` VALUES ('2', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTY1NjU4MDEsInN1YiI6IjIifQ.S2pyIZLRStVNg1z84wqjwX9uMkV7jvH_PDQkuqi_K9I', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTcxNjg4MDEsInN1YiI6IjIifQ.QbQ4S9I3vmrOL5k7uQ-BWtyyGzA9R2ooUBD2-cL6NYo', '1', '2024-05-24 22:20:01');
 INSERT INTO `token` VALUES ('2', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTY4MjQwMjksInN1YiI6IjIifQ.1RXNhdy8MdbPhrWe8C0uYikVpYNMKKrynu_IOa-FD6I', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTc0MjcwMzAsInN1YiI6IjIifQ.TxCEOtYfNZswR52pE_rQjW335Sk0HBvnNJE80y9ELig', '1', '2024-05-27 22:03:50');
 INSERT INTO `token` VALUES ('2', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTY5NDg3NDUsInN1YiI6IjIifQ.HU5FKu3_POcUFCLshYItB3NI3h6AltjEMHjZoVEijSI', 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MTc1NTE3NDUsInN1YiI6IjIifQ.YeqzkrXL5SWuv5TGXo_WPcvVRTVCm0bDEyCkpYIpTsc', '1', '2024-05-29 08:42:25');
